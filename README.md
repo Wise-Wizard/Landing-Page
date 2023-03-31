@@ -1,2 +1,2 @@
 # Landing-Page
-Created with CodeSandbox
+Internship Project for a simple UI FrontEnd Design
