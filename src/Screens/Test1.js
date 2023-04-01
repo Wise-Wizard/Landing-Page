@@ -8,12 +8,7 @@ const Test1 = () => {
       <div className="state">
         <div className="state-child" />
         <div className="college-end-date">College End Date</div>
-        <div className="div">01/01/1990</div>
-        <img
-          className="keyboard-arrow-down"
-          alt=""
-          src="/keyboard-arrow-down.svg"
-        />
+        <input type="date" value="01/01/1990" className="state-child"></input>
       </div>
       <NavBar />
       <SettingsBar />
@@ -27,24 +22,29 @@ const Test1 = () => {
       <div className="firstname">
         <div className="firstname-child" />
         <div className="first-name">First Name</div>{" "}
-        <input type="text" placeholder="Mehrab" className="mehrab"></input>
+        <input
+          type="text"
+          placeholder="Mehrab"
+          className="firstname-child"
+        ></input>
       </div>
       <div className="city">
         <div className="firstname-child" />
         <div className="college-start-date">College Start Date</div>
-        <div className="div1">01/01/1990</div>
-        <img
-          className="keyboard-arrow-down1"
-          alt=""
-          src="/keyboard-arrow-down1.svg"
-        />
+        <input
+          type="date"
+          value="01/01/1990"
+          className="firstname-child"
+        ></input>
       </div>
       <div className="email">
         <div className="email-child" />
         <div className="resume">Email</div>
-        <div className="mehrabbozorgibusinessgmailc">
-          Mehrabbozorgi.business@gmail.com
-        </div>
+        <input
+          type="text"
+          placeholder=" Mehrabbozorgi.business@gmail.com"
+          className="email-child"
+        ></input>
         <img className="email-item" alt="" src="/group-8.svg" />
       </div>
       <div className="password">
@@ -54,19 +54,32 @@ const Test1 = () => {
       </div>
       <div className="address">
         <div className="password-child" />
-        <img className="address-item" alt="" src="/group-81.svg" />
+
         <div className="mobile-number">Mobile Number</div>
-        <div className="div2">9876543210</div>
+        <input
+          type="text"
+          placeholder="9876543210"
+          className="password-child"
+        ></input>
+        <img className="address-item" alt="" src="/group-81.svg" />
       </div>
       <div className="address1">
         <div className="password-child" />
         <div className="mobile-number">Password</div>
-        <div className="div2">abc123</div>
+        <input
+          type="password"
+          placeholder="abc123"
+          className="password-child"
+        ></input>
       </div>
       <div className="lastname">
         <div className="lastname-child" />
         <div className="last-name">Last Name</div>
-        <div className="bozorgi">Bozorgi</div>
+        <input
+          type="text"
+          placeholder="Bozorgi"
+          className="lastname-child"
+        ></input>
       </div>
       <div className="rectangle-parent">
         <div className="group-child" />

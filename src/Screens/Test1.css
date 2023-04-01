@@ -200,13 +200,26 @@
   left: 0;
   font-weight: 600;
 }
-.mehrab {
+input::placeholder {
   top: 59px;
   left: 27px;
+  padding: 30px;
   font-size: var(--font-size-5xl);
   font-weight: 500;
   color: var(--color-gray-100);
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 45px;
+  height: 30px;
+  padding: 0px;
+  margin: 5px;
+  margin-top: 10px;
+  font-size: 50px;
+}
+.custom-inpt {
+  padding: 30px !important;
+}
+
 .firstname {
   position: absolute;
   top: 216px;
