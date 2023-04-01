@@ -49,6 +49,7 @@
   left: 0;
   width: 120px;
   height: 1117px;
+  justify-content: center;
 }
 .settings {
   position: absolute;

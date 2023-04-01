@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Test1 from "./pages/Test1";
+import Test1 from "./Screens/Test1";
 import { useEffect } from "react";
 
 function App() {
